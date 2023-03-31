@@ -1,0 +1,35 @@
+Package: minchem
+Title: Searchable Chemical and Health Outcome Databse
+Version: 0.0.0.9000
+Authors@R: person('Brady', 'Johnston', email = 'bjohnston@minderoo.org', role = c('cre', 'aut'))
+Description: Searchable 'database' of chemical additives, polymers and health outcomes for use in the literature review being conducted by the Plastics and Human Health group in the Minderoo Foudnation.
+License: What license is it under?
+Imports: 
+    attempt,
+    config (>= 0.3.1),
+    dplyr,
+    DT,
+    glue,
+    golem (>= 0.3.1),
+    htmltools,
+    magrittr,
+    pkgload,
+    processx,
+    purrr,
+    reactable,
+    rlang,
+    shiny (>= 1.6.0),
+    shinythemes,
+    stringr,
+    tibble,
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/bradyajohnston/minderoo-minchem
+BugReports: https://github.com/bradyajohnston/minderoo-minchem/issues
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
